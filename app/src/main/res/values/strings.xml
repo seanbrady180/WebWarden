@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WebWarden</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="edit_username">Edit username</string>
+    <string name="edit_passsword">Edit password</string>
+    <string name="delete_account">Delete account</string>
+    <string name="title_activity_access_control">AccessControl</string>
+    <string name="generate_acpw">Generate Access Control Password</string>
+    <string name="create_acpw">Create Access Point Password</string>
+    <string name="title_activity_manage_devices">ManageDevices</string>
+    <string name="title_activity_popup">PopUp</string>
+    <string name="whitelist">Whitelist Device</string>
+    <string name="devices">Connected Devices</string>
+    <string name="block">Block Website</string>
+    <string name="remove">Remove banned site</string>
+    <string name="viewlist">View banned list</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_website_access">WebsiteAccess</string>
+    <string name="title_activity_site_control">SiteControl</string>
+    <string name="title_activity_create_account">CreateAccount</string>
+</resources>

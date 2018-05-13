@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.seanb.webwarden.AccessControl">
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/content_access_control" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@null"
+        android:orientation="horizontal"
+        app:layout_anchor="@+id/include2"
+        app:layout_anchorGravity="bottom|center">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/fullTrans"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/homebt" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/fullTrans"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/profile5" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/websiteaccessbt" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
